@@ -7,14 +7,38 @@
 //云服务器腾讯云函数等NOde.js用户在此处填写京京喜农场的好友码。
 // 同一个京东账号的好友助力码用@符号隔开,不同京东账号之间用&符号或者换行隔开,下面给一个示例
 // 如: 京东账号1的shareCode1@京东账号1的shareCode2&京东账号2的shareCode1@京东账号2的shareCode2
-// 注意：京喜农场 种植种子发生变化的时候，互助码也会变！！
-// 注意：京喜农场 种植种子发生变化的时候，互助码也会变！！
-// 注意：京喜农场 种植种子发生变化的时候，互助码也会变！！
-// 每个账号 shareCdoe 是一个 json，示例如下
-// {"smp":"22bdadsfaadsfadse8a","active":"jdnc_1_btorange210113_2","joinnum":"1"}
 let JxncShareCodes = [
-  '',//账号一的好友shareCode,不同好友中间用@符号隔开
-  '',//账号二的好友shareCode，不同好友中间用@符号隔开
+    '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+  '{"smp":"80a30ff4d138ace1813fb77953d45e60","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"eb4693969e6fee34176e7d6eb103633d","active":"jdnc_1_2yuanyumi210422_2","joinnum":2}@{"smp":"5569d44ba17d89ec2bc892c3c6ea7668","active":"jdnc_1_2yuanyumi210422_2","joinnum":1}',
+
 ]
 // 判断github action里面是否有京喜农场助力码
 if (process.env.JXNC_SHARECODES) {
@@ -27,10 +51,9 @@ if (process.env.JXNC_SHARECODES) {
   } else {
     JxncShareCodes = process.env.JXNC_SHARECODES.split();
   }
-} else {
-  console.log(`由于您环境变量里面(JXNC_SHARECODES)未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！`)
+} else if (process.env.JD_COOKIE) {
+  // console.log(`由于您secret里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！`)
 }
-JxncShareCodes = JxncShareCodes.filter(item => !!item);
 for (let i = 0; i < JxncShareCodes.length; i++) {
   const index = (i + 1 === 1) ? '' : (i + 1);
   exports['JxncShareCode' + index] = JxncShareCodes[i];
